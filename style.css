@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: lightgrey;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* Utilities */
@@ -18,10 +19,10 @@ header{
 }
 
 main{
-    height: 500px;;
-    width: 100%;
-    margin: 20px 10%;
-    border-radius: 5%;
+    padding: 20px;
+    height: 500px;
+    margin: 20px 15%;
+    border-radius: 30px;
 }
 
 #logo{
@@ -32,24 +33,25 @@ main{
 #header-title{
     display: inline;
     vertical-align: middle;
+    font-size: 40px;
     background-color: white;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 7%;
+    text-decoration: none;
 }
 
 #add-task{
-    padding: 5px 10px;
-    border-radius: 7%;
     color: white;
     background-color: turquoise;
-    text-decoration: none;
-    margin-top: 100px;
+    border: 1px solid turquoise;
 }
 
-#add-section{
-    padding: 5px 10px;
-    border-radius: 7%;
+#add-section{   
     color: grey;
     background-color: white;
-    text-decoration: none;
     border: 1px solid grey;
-    margin-top: 100px;
 }
+
