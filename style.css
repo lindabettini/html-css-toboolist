@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+#logo{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#header-title{
+    display: inline;
+    vertical-align: middle;
+    background-color: white;
+}
