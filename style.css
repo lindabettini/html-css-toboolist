@@ -42,7 +42,7 @@ main{
     padding-left: 10px;
 }
 
-/* BUTTONS */
+/* Buttons */
 button{
     padding: 5px 10px;
     border-radius: 8px;
@@ -63,7 +63,7 @@ button{
     border: 1px solid grey;
 }
 
-/* TO DO LIST */
+/* To Do List */
 
 #to-do-list{
     margin-left: 10px;
@@ -95,7 +95,7 @@ li{
     color:red;
 }
 
-/* LABELS */
+/* Labels */
 
 .label{
     padding: 3px 15px;
