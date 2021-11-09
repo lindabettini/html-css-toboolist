@@ -5,9 +5,22 @@
     background-color: lightgrey;
 }
 
+/* Utilities */
+
+.white-bg{
+    background-color: white;
+}
+
+/* Other */
+
 header{
     width: 100%;
-    background-color: white;
+}
+
+main{
+    height: 500px;;
+    width: 100%;
+    margin: 20px 10%;
 }
 
 #logo{
