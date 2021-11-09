@@ -21,6 +21,7 @@ main{
     height: 500px;;
     width: 100%;
     margin: 20px 10%;
+    border-radius: 5%;
 }
 
 #logo{
@@ -32,4 +33,23 @@ main{
     display: inline;
     vertical-align: middle;
     background-color: white;
+}
+
+#add-task{
+    padding: 5px 10px;
+    border-radius: 7%;
+    color: white;
+    background-color: turquoise;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+#add-section{
+    padding: 5px 10px;
+    border-radius: 7%;
+    color: grey;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid grey;
+    margin-top: 100px;
 }
