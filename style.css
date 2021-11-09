@@ -36,6 +36,8 @@ main{
     margin: 20px 15%;
     border-radius: 30px;
     background-color: white;
+    line-height: 20px;
+    vertical-align: middle;
 }
 
 #operation-header{
@@ -53,8 +55,8 @@ button{
 
 #add-task{
     color: white;
-    background-color: rgba(30,144,255,255);
-    border: 1px solid rgba(30,144,255,255);
+    background-color: rgba(30,144,255);
+    border: 1px solid rgba(30,144,255);
     }
 
 #add-section{   
@@ -67,6 +69,8 @@ button{
 
 #to-do-list{
     margin-left: 10px;
+    line-height: 20px;
+    vertical-align: middle;
 }
 
 ul{
@@ -78,7 +82,7 @@ li{
 }
 
 .list-title{
-    margin: 20px 0;
+    margin: 20px 20px 20px 0;
 }
 
 .done-check-box{
@@ -104,29 +108,29 @@ li{
 }
 
 .blue-editorial{
-    background-color: rgba(30,144,255,255);
+    background-color: rgb(30,144,255);
 }
 
 .orange-editorial{
-    background-color: rgba(242,158,51,255);
+    background-color: rgb(242,158,51);
 }
 
 .q1-goals{
-    background-color: rgba(156,114,228,255);
+    background-color: rgb(156,114,228);
 }
 
 .recruiting{
-    background-color: rgba(100,192,169,255);
+    background-color: rgb(100,192,169);
 }
 
 .mobile{
-    background-color: rgba(242,158,51,255);
+    background-color: rgb(242,158,51);
 }
 
 .website{
-    background-color: rgba(216,99,161,255);
+    background-color: rgb(216,99,161);
 }
 
 .sales{
-    background-color: rgba(176,201,38,255);
+    background-color: rgb(176,201,38);
 }
