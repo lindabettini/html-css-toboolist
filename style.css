@@ -2,20 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightgrey;
     font-family: 'DM Sans', sans-serif;
 }
 
-/* Utilities */
-
-.white-bg{
-    background-color: white;
+body{
+    background-color: rgb(226, 226, 226);
 }
+
+/* Utilities */
 
 /* Other */
 
 header{
     width: 100%;
+    background-color: white;
 }
 
 main{
@@ -23,6 +23,7 @@ main{
     height: 500px;
     margin: 20px 15%;
     border-radius: 30px;
+    background-color: white;
 }
 
 #logo{
@@ -37,6 +38,11 @@ main{
     background-color: white;
 }
 
+#list-header{
+    padding-left: 10px;
+}
+
+/* BUTTONS */
 button{
     padding: 5px 10px;
     border-radius: 7%;
@@ -55,3 +61,24 @@ button{
     border: 1px solid grey;
 }
 
+/* TO DO LIST */
+
+#to-do-list{
+    margin-left: 10px;
+}
+
+.list-title{
+    margin: 20px 0;
+}
+
+/* LABELS */
+
+.label{
+    padding: 3px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.editorial{
+    background-color: rgba(30,144,255,255);
+}
