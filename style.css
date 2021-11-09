@@ -67,8 +67,30 @@ button{
     margin-left: 10px;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 15px;
+}
+
 .list-title{
     margin: 20px 0;
+}
+
+.done-check-box{
+    border: 1px solid green;
+    padding: 0 5px;
+    border-radius: 50%;
+    color: green;
+}
+
+.undone-check-box{
+    border: 1px solid red;
+    padding: 0 5px;
+    border-radius: 50%;
+    color:red;
 }
 
 /* LABELS */
@@ -79,6 +101,30 @@ button{
     color: white;
 }
 
-.editorial{
+.blue-editorial{
+    background-color: rgba(30,144,255,255);
+}
+
+.orange-editorial{
+    background-color: rgba(30,144,255,255);
+}
+
+.q1-goalsl{
+    background-color: rgba(30,144,255,255);
+}
+
+.recruiting{
+    background-color: rgba(30,144,255,255);
+}
+
+.mobile{
+    background-color: rgba(30,144,255,255);
+}
+
+.website{
+    background-color: rgba(30,144,255,255);
+}
+
+.sales{
     background-color: rgba(30,144,255,255);
 }
